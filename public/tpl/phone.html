@@ -1,0 +1,14 @@
+>
+<header class="mui-bar mui-bar-nav setHead">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left iconleft" href="#!/"></a>
+    <h1 class="mui-title titleHead">通讯录</h1>
+</header>
+<div class="mui-content">
+    <ul class="mui-table-view">
+        <li class="mui-table-view-cell" ng-repeat="item in data">
+            <a class="mui-navigate-right" href="tel:{{item.phone}}">
+               {{item.name}}
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,20 @@
+
+
+<header class="mui-bar mui-bar-nav setHead">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left iconleft" href="javascript:;" onclick="history.back()"></a>
+    <h1 class="mui-title titleHead">待办事项</h1>
+    <a class=" mui-icon mui-icon-compose mui-pull-right" href="#!/todocon" style="color: #000;font-weight:700"></a>
+</header>
+<div class="mui-content">
+    <ul class="mui-table-view" ng-show="data.length>0">
+        <li class="mui-table-view-cell" ng-repeat="item in data">
+            <a href="#!/todoinfo/{{$index}}"class="mui-navigate-right">
+                {{item}}
+            </a>
+            <span class="mui-icon mui-icon-trash" ng-click="del($index)"></span>
+        </li>
+    </ul>
+    <ul class="mui-table-view" style="text-align: center" ng-show="data.length==0" >
+        没有数据
+    </ul>
+</div>

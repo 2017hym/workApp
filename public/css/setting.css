@@ -1,0 +1,61 @@
+@font-face {
+    font-family: PingFang Regular;
+    src:url('../font/PingFang Regular.ttf');
+}
+@font-face{
+    font-family: iYaHeiBold;
+    src:url('../font/iYaHeiBold.ttf');
+}
+@font-face{
+    font-family: yahei;
+    src:url('../font/yahei.ttf');
+}
+.setHead{
+    background: #fff;
+
+}
+.iconleft{
+    color: #000;
+}
+.titleHead{
+    color: #000;
+    font-weight: 700;
+}
+.personImg{
+    margin:0;
+}
+.imgSon{
+    padding: 0 !important;
+    border: none !important;
+    margin: 0 !important;
+}
+.mui-table-view{
+    margin-top: 28px;
+}
+.mui-table-view:before{
+    background-color:transparent;
+}
+.updateBtn{
+    border-radius: 50px;
+    background: #000;
+    width: 20%;
+    border:none;
+}
+.conReset{
+    padding-top: 70px !important;
+}
+.submitReset{
+    padding-top: 26px;
+}
+.oldReset, .newReset{
+    font-size:14px;
+}
+.out{
+    text-align: center;
+    color: #F24369 !important;
+    /*font-weight:700;*/
+    font-family: iYaHeiBold;
+}
+.lgout:after{
+    background-color:transparent;
+}

@@ -1,0 +1,45 @@
+@font-face{
+    font-family: GoyaUltra;
+    src:url('../font/GoyaUltra.TTF');
+}
+
+@font-face{
+    font-family: DISTROH_;
+    src:url('../font/DISTROH_.ttf');
+}
+body{
+    background: url("../imgs/001.jpg");
+    background-size: cover;
+}
+.adminLogin{
+    font-family: GoyaUltra;
+    box-shadow: none;
+    background-color:transparent;
+    top:171px;
+}
+.adminForm{
+    background: transparent;
+}
+.adminInput{
+    width: 80%;
+    margin: auto;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+}
+.adminContent{
+    background: transparent;
+    padding-top: 253px !important;
+}
+.adminSubmit{
+    font-family: DISTROH_;
+    width: 80%;
+    margin: auto;
+    border-radius: 30px;
+    background: #fff;
+    color: #000;
+    border:none;
+}
+.adminForm:before, .adminForm:after{
+    background-color: transparent;
+}
